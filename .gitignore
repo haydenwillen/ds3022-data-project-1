@@ -1,0 +1,17 @@
+# data & databases
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# logs
+*.log
+dbt/logs/
+
+# dbt build output
+dbt/target/
+dbt/dbt_packages/
+
+# environments
+.venv/
+__pycache__/
+.DS_Store
